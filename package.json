@@ -1,0 +1,30 @@
+{
+  "name": "cashew-cms",
+  "private": true,
+  "version": "0.1.0",
+  "description": "cashew cms",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/plugin-i18n": "4.1.3",
+    "@strapi/plugin-users-permissions": "4.1.3",
+    "@strapi/strapi": "4.1.3",
+    "sqlite3": "5.0.2",
+    "strapi-plugin-ckeditor5": "^2.0.0-rc.2"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "b884740c-1e4a-45d4-9c1d-cf5a697b98ce"
+  },
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
